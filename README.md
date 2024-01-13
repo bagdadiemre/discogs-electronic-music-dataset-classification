@@ -91,20 +91,24 @@ This study focuses on constructing a model utilizing Naive Bayes, k-NN, and Deci
 
 We partitioned our dataset, reserving 80% for training the model and keeping the remaining 20% for testing purposes. The model was trained using the train function, employing recursive partitioning as the chosen method. Cross-validation techniques were incorporated during the training process to enhance the model's generalization capabilities.
 
+![Decision Tree](dtt.png)
+
+![Confusion and Evaluation](dt.png)
 
 ### Naive-Bayes
 
 We reserved 80% of our dataset for training the model and the remaining 20% for testing purposes. The model was trained using the train function, applying recursive partitioning, and incorporating cross-validation techniques.
 
-
+![Confusion and Evaluation](nb.png)
 
 ### kNN
 
 We divided our dataset, allocating 80% for training purposes and reserving the remaining 20% for testing the model's performance. The model training utilized the train function with the k-Nearest Neighbors (kNN) method, and hyperparameter tuning was performed through cross-validation.
+
+![Confusion and Evaluation](knn.png)
 
 
 ## Conclusion
 
 This study aimed to build a model using Naive Bayes, k-NN, and Decision Tree classification algorithms and evaluate the performance of these models. The Decision Tree model showed high performance, while both Naive Bayes and kNN models also exhibited successful results. The choice of the model depends on the specific problem and dataset characteristics.
 To run the code, Adjust the file path accordingly.
-
