@@ -47,8 +47,6 @@ The dataset contains information related to music releases, including various at
 - **median_price:** The median price of the release.
 - **highest_price:** The highest price at which the release is available.
 
-![Brief](brief.png)
-
 ### Column Selection
 
 The initial step involved carefully selecting relevant columns for analysis. Columns such as "artist," "title," "label," "country," "styles," "format," and "genre" were identified as non-contributory to the immediate analysis and were therefore removed from the dataset.
@@ -114,3 +112,5 @@ We divided our dataset, allocating 80% for training purposes and reserving the r
 
 This study aimed to build a model using Naive Bayes, k-NN, and Decision Tree classification algorithms and evaluate the performance of these models. The Decision Tree model showed high performance, while both Naive Bayes and kNN models also exhibited successful results. The choice of the model depends on the specific problem and dataset characteristics.
 To run the code, Adjust the file path accordingly.
+
+![Brief](brief.png)
