@@ -47,6 +47,8 @@ The dataset contains information related to music releases, including various at
 - **median_price:** The median price of the release.
 - **highest_price:** The highest price at which the release is available.
 
+![Brief](brief.png)
+
 ### Column Selection
 
 The initial step involved carefully selecting relevant columns for analysis. Columns such as "artist," "title," "label," "country," "styles," "format," and "genre" were identified as non-contributory to the immediate analysis and were therefore removed from the dataset.
